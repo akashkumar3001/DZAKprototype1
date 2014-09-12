@@ -19,7 +19,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.title = @"FirstVC";
+    self.title = @"DZ";
+    self.navigationController.navigationBar.translucent = NO;
+    
     self.view.backgroundColor = [UIColor colorWithRed:77/255.0f green:103/255.0f blue:143/255.0f alpha:1];
 //    self.view.backgroundColor = [UIColor whiteColor];
 
