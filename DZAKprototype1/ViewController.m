@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+//    75 103 143
+    
+    self.title = @"FirstVC";
+    self.view.backgroundColor = [UIColor colorWithRed:75/255.0f green:103/255.0f blue:143/255.0f alpha:1];
+//    self.view.backgroundColor = [UIColor whiteColor];
+
 }
 
 - (void)didReceiveMemoryWarning

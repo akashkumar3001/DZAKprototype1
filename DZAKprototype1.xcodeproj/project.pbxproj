@@ -13,8 +13,6 @@
 		F7C7B97E19C2D36700EB0E2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7C7B97C19C2D36700EB0E2B /* InfoPlist.strings */; };
 		F7C7B98019C2D36800EB0E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C7B97F19C2D36700EB0E2B /* main.m */; };
 		F7C7B98419C2D36800EB0E2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C7B98319C2D36800EB0E2B /* AppDelegate.m */; };
-		F7C7B98719C2D36800EB0E2B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C7B98519C2D36800EB0E2B /* Main_iPhone.storyboard */; };
-		F7C7B98A19C2D36800EB0E2B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C7B98819C2D36800EB0E2B /* Main_iPad.storyboard */; };
 		F7C7B98D19C2D36800EB0E2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C7B98C19C2D36800EB0E2B /* ViewController.m */; };
 		F7C7B98F19C2D36800EB0E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C7B98E19C2D36800EB0E2B /* Images.xcassets */; };
 		F7C7B99619C2D36800EB0E2B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C7B99519C2D36800EB0E2B /* XCTest.framework */; };
@@ -45,8 +43,6 @@
 		F7C7B98119C2D36800EB0E2B /* DZAKprototype1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DZAKprototype1-Prefix.pch"; sourceTree = "<group>"; };
 		F7C7B98219C2D36800EB0E2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7C7B98319C2D36800EB0E2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7C7B98619C2D36800EB0E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		F7C7B98919C2D36800EB0E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		F7C7B98B19C2D36800EB0E2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F7C7B98C19C2D36800EB0E2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7C7B98E19C2D36800EB0E2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -116,8 +112,6 @@
 			children = (
 				F7C7B98219C2D36800EB0E2B /* AppDelegate.h */,
 				F7C7B98319C2D36800EB0E2B /* AppDelegate.m */,
-				F7C7B98519C2D36800EB0E2B /* Main_iPhone.storyboard */,
-				F7C7B98819C2D36800EB0E2B /* Main_iPad.storyboard */,
 				F7C7B98B19C2D36800EB0E2B /* ViewController.h */,
 				F7C7B98C19C2D36800EB0E2B /* ViewController.m */,
 				F7C7B98E19C2D36800EB0E2B /* Images.xcassets */,
@@ -231,9 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7C7B98A19C2D36800EB0E2B /* Main_iPad.storyboard in Resources */,
 				F7C7B98F19C2D36800EB0E2B /* Images.xcassets in Resources */,
-				F7C7B98719C2D36800EB0E2B /* Main_iPhone.storyboard in Resources */,
 				F7C7B97E19C2D36700EB0E2B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +276,6 @@
 				F7C7B97D19C2D36700EB0E2B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F7C7B98519C2D36800EB0E2B /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7C7B98619C2D36800EB0E2B /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		F7C7B98819C2D36800EB0E2B /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7C7B98919C2D36800EB0E2B /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		F7C7B99E19C2D36800EB0E2B /* InfoPlist.strings */ = {
@@ -470,6 +446,7 @@
 				F7C7B9A719C2D36800EB0E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7C7B9A819C2D36800EB0E2B /* Build configuration list for PBXNativeTarget "DZAKprototype1Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +455,7 @@
 				F7C7B9AA19C2D36800EB0E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
